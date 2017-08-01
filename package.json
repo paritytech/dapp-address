@@ -13,7 +13,8 @@
   },
   "keywords": [],
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "NODE_ENV=production webpack --colors --progress",
+    "start": "webpack --colors --progress --watch"
   },
   "devDependencies": {
     "html-webpack-plugin": "^2.30.1",
@@ -51,11 +52,11 @@
     "postcss-simple-vars": "4.0.0"
   },
   "dependencies": {
-    "@parity/ui": "paritytech/js-ui#037782bd16e8abf1c169143aa61749a44b94489b",
-    "@parity/shared": "paritytech/js-shared#9bb1d291d8752a827613889498e380fcd3afa8da",
-    "@parity/api": "paritytech/js-api#ade4a6750292a2918676039ea53eea20c4c728bc",
-    "@parity/dapp-account": "paritytech/dapp-account#4af7ae5d09ecb662c6be9d97aebeef13d1fc8153",
-    "@parity/dapp-addresses": "paritytech/dapp-addresses#92bbd84b358bbf421822761a9d0cfe44a9b3e42e",
+    "@parity/ui": "paritytech/js-ui",
+    "@parity/shared": "paritytech/js-shared",
+    "@parity/api": "paritytech/js-api",
+    "@parity/dapp-account": "paritytech/dapp-account",
+    "@parity/dapp-addresses": "paritytech/dapp-addresses",
     "recharts": "0.15.2"
   },
   "peerDependencies": {}
