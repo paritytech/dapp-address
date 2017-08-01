@@ -1,0 +1,10 @@
+[
+  {
+    "id": "address.delete.title",
+    "defaultMessage": "confirm removal"
+  },
+  {
+    "id": "address.delete.confirmInfo",
+    "defaultMessage": "Are you sure you want to remove the following address from your addressbook?"
+  }
+]

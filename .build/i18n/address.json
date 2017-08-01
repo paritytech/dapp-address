@@ -1,0 +1,18 @@
+[
+  {
+    "id": "address.buttons.edit",
+    "defaultMessage": "edit"
+  },
+  {
+    "id": "address.buttons.forget",
+    "defaultMessage": "forget"
+  },
+  {
+    "id": "address.buttons.save",
+    "defaultMessage": "save"
+  },
+  {
+    "id": "address.title",
+    "defaultMessage": "Address Information"
+  }
+]
