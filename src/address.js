@@ -24,10 +24,10 @@ import { setVisibleAccounts } from '@parity/shared/redux/providers/personalActio
 import { Actionbar, Button, Page } from '@parity/ui';
 import { AddIcon, DeleteIcon, EditIcon } from '@parity/ui/Icons';
 
-import EditMeta from '@parity/dapp-account/EditMeta';
-import Header from '@parity/dapp-account/Header';
-import Transactions from '@parity/dapp-account/Transactions';
-import AddAddress from '@parity/dapp-addresses/AddAddress';
+import EditMeta from '@parity/dapp-account/src/EditMeta';
+import Header from '@parity/dapp-account/src/Header';
+import Transactions from '@parity/dapp-account/src/Transactions';
+import AddAddress from '@parity/dapp-addresses/src/AddAddress';
 
 import Delete from './Delete';
 
