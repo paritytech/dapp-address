@@ -20,9 +20,9 @@ import { FormattedMessage } from 'react-intl';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import { setVisibleAccounts } from '@parity/shared/redux/providers/personalActions';
+import { setVisibleAccounts } from '@parity/shared/lib/redux/providers/personalActions';
 import { Actionbar, Button, Page } from '@parity/ui';
-import { AddIcon, DeleteIcon, EditIcon } from '@parity/ui/Icons';
+import { AddIcon, DeleteIcon, EditIcon } from '@parity/ui/lib/Icons';
 
 import DeleteAddress from '@parity/dapp-account/src/DeleteAddress';
 import EditMeta from '@parity/dapp-account/src/EditMeta';
